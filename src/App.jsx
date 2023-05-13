@@ -1,33 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+ <div className="preloader">
+    <div className="loading-mask"></div>
+    <div className="loading-mask"></div>
+    <div className="loading-mask"></div>
+    <div className="loading-mask"></div>
+    <div className="loading-mask"></div>
+  </div>
+
+  <div className="preview-wrapper">
+    <div className="switcher-head">
+      <span>Style Switcher</span>
+      <div className="switcher-trigger tf-tools"></div>
+    </div>
+
+    <div className="switcher-body">
+      <h4>Choose Color:</h4>
+      <ul className="color-options list-none">
+        <li className="c0" data-color="red" title="Default">Default</li>
+        <li className="c1" data-color="blue" title="Red">Red</li>
+        <li className="c2" data-color="green" title="Green">Green</li>
+        <li className="c3" data-color="yellow" title="Blue">Blue</li>
+      </ul>
+    </div>
+  </div>
     </>
   )
 }
