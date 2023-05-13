@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 /* eslint-disable react/no-unknown-property */
 const Home = () => {
     return (
@@ -27,7 +29,7 @@ const Home = () => {
                   <div></div>
                   <div></div>
                 </div>
-                <a href="welcome.html" className="hex-content">
+                <Link to="/welcome" className="hex-content">
                   <span className="hex-content-inner">
                     <span className="icon">
                       <i className="tf-dial"></i>
@@ -40,7 +42,7 @@ const Home = () => {
                       d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
                       fill="#1e2530"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className="hexagon-item">
                 <div className="hex-item">
@@ -53,7 +55,7 @@ const Home = () => {
                   <div></div>
                   <div></div>
                 </div>
-                <a href="about.html" className="hex-content">
+                <Link to='/about' className="hex-content">
                   <span className="hex-content-inner">
                     <span className="icon">
                       <i className="tf-profile-male"></i>
@@ -64,7 +66,7 @@ const Home = () => {
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className="hexagon-item">
                 <div className="hex-item">
@@ -77,7 +79,7 @@ const Home = () => {
                   <div></div>
                   <div></div>
                 </div>
-                <a href="services.html" className="hex-content">
+                <Link to='/services' className="hex-content">
                   <span className="hex-content-inner">
                     <span className="icon">
                       <i className="tf-tools-2"></i>
@@ -88,7 +90,7 @@ const Home = () => {
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className="hexagon-item">
                 <div className="hex-item">
@@ -101,7 +103,7 @@ const Home = () => {
                   <div></div>
                   <div></div>
                 </div>
-                <a href="resume.html" className="hex-content">
+                <Link to='/resume' className="hex-content">
                   <span className="hex-content-inner">
                     <span className="icon">
                       <i className="tf-tools"></i>
@@ -112,7 +114,7 @@ const Home = () => {
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className="hexagon-item">
                 <div className="hex-item">
@@ -125,7 +127,7 @@ const Home = () => {
                   <div></div>
                   <div></div>
                 </div>
-                <a href="works.html" className="hex-content">
+                <Link to='/works' className="hex-content">
                   <span className="hex-content-inner">
                     <span className="icon">
                       <i className="tf-briefcase2"></i>
@@ -136,7 +138,7 @@ const Home = () => {
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className="hexagon-item">
                 <div className="hex-item">
@@ -149,7 +151,7 @@ const Home = () => {
                   <div></div>
                   <div></div>
                 </div>
-                <a href="testimonials.html" className="hex-content">
+                <Link to='/testimonials' className="hex-content">
                   <span className="hex-content-inner">
                     <span className="icon">
                       <i className="tf-chat"></i>
@@ -160,7 +162,7 @@ const Home = () => {
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className="hexagon-item">
                 <div className="hex-item">
@@ -173,7 +175,7 @@ const Home = () => {
                   <div></div>
                   <div></div>
                 </div>
-                <a href="contact.html" className="hex-content">
+                <Link to='/contact' className="hex-content">
                   <span className="hex-content-inner">
                     <span className="icon">
                       <i className="tf-envelope2"></i>
@@ -184,7 +186,7 @@ const Home = () => {
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div> 
 

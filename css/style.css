@@ -648,6 +648,7 @@ label {
 .history-scroller {
   padding-top: 82px;
   max-height: 377px;
+  overflow: scroll;
 }
 
 .history-item {
